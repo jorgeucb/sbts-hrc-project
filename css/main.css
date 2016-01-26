@@ -1,0 +1,99 @@
+/*gen*/
+
+a {text-decoration:none;}
+body{font-family: 'Economica', sans-serif;}
+#wrapper {max-width: 940px; margin: 0 auto;
+padding: 0 5%}
+img {max-width:100%}
+h3 {margin:0 0 1em 0;}
+
+
+
+
+/*nav*/
+nav {text-align:center;
+padding:10px 0;
+margin:20px 0 0 0;}
+nav ul{list-style:none;margin:20px 0 0;padding:10px 0;}
+nav li {display:inline-block;}
+nav a{font-weight:800; padding:15px 10px;}
+
+
+/*   footer   */
+footer{font-size:0.75em;
+text-align:center;
+padding-top:50px;
+color:#ccc}
+/*    body   */
+body{background-color:#0f9}/*blue*/
+header {background:#f00;border-color:#8040ff;}
+nav {background:#000}/*black*/
+h1,h2{text-align:center}
+h1,h2{color:#fff}/*white*/
+a {color:#0f5}/*l grey*/
+footer{color:#fff}/*l grey*/
+nav a,seleceted, nav a:hover {color:#32673f}
+nav a, nav a:visited {color:#fff}
+nav a{color:#fff;}
+nav a:hover{color:#32673f}
+p{color:#000}
+
+body {background-color:#fff;color:#000}/*black*/
+/*site body*/
+/*footer*/
+footer {font-size:0.75em;text-align:center;clear:both;padding-top:50px;color:#fff}
+social-icon {width:20px;height:20px;margin:0 5px}
+
+
+/* portfolio */
+#gallery {margin:0; padding:0; list-style:none}
+#gallery li {float:left;width:45%; margin: 2.5%;background-color:#bdc3c7}
+#gallery li a p {margin:0;
+padding:5%;
+font-size:0.75em;
+color:#bdc3c7}
+
+/*       about    */
+.profile-photo {
+  display: block;
+  margin: 0 auto 30px;
+  	  max-width: 150px;
+   border-radius: 100%}
+
+/*    contact    */
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+.contact-info li.phone a {
+  background-image: url('../Img/phone.png');
+}
+.contact-info li.mail a {
+  background-image: url('../Img/mail.png');
+}
+.contact-info li.twitter a {
+  background-image: url('../Img/twitter.png');
+}
+
+/*      heading    */
+header {float:left;margin: 0 0 30px 0;padding:5px 0 0 0;width:100%}
+    
+#logo {text-align:center;margin:0;}
+h1 {font-family: 'Economica', sans-serif; margin: 15px 0 0 0; font-size:1.75em;font-weight:normal; line-height:0.8em;
+}
+h2{font-size:0.75em;
+margin:5px 0 0 0;
+font-weight:normal;}
+
