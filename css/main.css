@@ -30,7 +30,8 @@ display: none;
 /**Title**/
 h1 {
   font-size: 3.1em;
-  padding: 10px 0 25px;
+  padding: 0;
+  margin: 30px 0 50px;
   text-align: center;
 }
 
