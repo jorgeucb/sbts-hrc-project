@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  text-align: center;
+  text-align: center; 
   }
 
 link {
@@ -41,7 +41,13 @@ h1 {
   text-align: center;
   padding: 50px 0;
 }
-
+/*BOTTOM*/
+.facilities-bottom {
+  padding: 25px;
+  margin: 50px 0 0;
+  background-color: black;
+  color: white;
+} 
 
 
 
