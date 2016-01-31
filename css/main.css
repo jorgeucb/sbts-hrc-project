@@ -15,11 +15,16 @@ display: none;
 }
 
 /****** HEADER ******/
+h1 {
+  background: black;
+  background-image: ;
+  color: white;
+}
 
 /**Menus**/
 #main-menu {
-  text-align: right;
   font-style: none;
+  text-align: right;
 }
 #secondary-menu a {
   padding: 0 7px 0;
@@ -41,13 +46,24 @@ h1 {
   text-align: center;
   padding: 50px 0;
 }
+#demo-video p {
+  text-align: center;
+  width: 65%;
+  margin: 10px 17.5% 0;
+
+}
 /*BOTTOM*/
 .facilities-bottom {
+  text-align: center;
   padding: 25px;
-  margin: 50px 0 0;
+  width: 20%;
+  margin: 0 40%;
   background-color: black;
   color: white;
+  border-radius: 10px;
+  display: inline-block;
 } 
+
 
 
 
