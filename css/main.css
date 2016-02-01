@@ -1,5 +1,10 @@
 
 /****** GENERAL CSS ******/
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: red;
   color: black;
@@ -16,9 +21,14 @@ display: none;
 
 /****** HEADER ******/
 h1 {
-  background: black;
-  background-image: ;
+  
   color: white;
+}
+.wrapper-header {
+  padding: 0 0 200px;
+  background: black;
+  background-image: url("http://www.sbts.edu/wp-content/uploads/sites/2/2009/01/PoolDivingBoardView.jpg");
+  background-size: cover;
 }
 
 /**Menus**/
@@ -66,6 +76,16 @@ h1 {
 .wrapper {
   width: 70%;
   margin: 0 auto;
+}
+
+/*********** MEDIA QUERIE ************/
+
+@media (min-width: 769px) {
+  .wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
 
 
