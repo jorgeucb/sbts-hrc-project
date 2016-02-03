@@ -42,6 +42,12 @@ h1 {
 #main-menu a {
   color: white;
   text-shadow: 0px 0px 10px #000;
+  background-color: black;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+
 }
 #secondary-menu a {
   padding: 0 7px 0;
@@ -56,11 +62,12 @@ h1 {
 /**Title**/
 h1 {
   font-size: 3.1em;
+  width: 90%;
   padding: 5px;
-  margin: 0 auto;
-  text-align: center;
+  margin: 0 5%;
   color: white;
   text-shadow: 0px 0px 31px #000;
+  display: inline-block;
 }
 
 /****** BODY ******/
