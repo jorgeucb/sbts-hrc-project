@@ -14,11 +14,14 @@ link {
 display: none;
 }
 
-/****** HEADER ******/
-h1 {
 
+/****** HEADER ******/
+
+h1 {
   color: white;
 }
+/*FIX HEADER BACKGROUND WHEN SCREEN GET SMALLER*/
+
 .wrapper-header {
   padding: 0;
   background: black;
@@ -75,6 +78,7 @@ h1 {
 #demo-video {
   text-align: center;
   padding: 50px 0;
+  
 }
 #demo-video p {
   text-align: center;
