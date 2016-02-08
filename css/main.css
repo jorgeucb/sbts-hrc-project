@@ -20,7 +20,9 @@ h1 {
   color: white;
 }
 .wrapper-header {
+/*check to make sure this is right */
   padding: 0 0 200px;
+
   background: black;
   background-image: url("http://www.sbts.edu/wp-content/uploads/sites/2/2009/01/PoolDivingBoardView.jpg");
   background-size: 100%;
@@ -36,11 +38,18 @@ h1 {
 #main-menu {
   font-style: none;
   text-align: right;
-  margin: 0 0 100px;
+  margin: 0 0 200px;
   padding: 5px;
 }
 #main-menu a {
-  color: black;
+  color: white;
+  text-shadow: 0px 0px 10px #000;
+  background-color: black;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+
 }
 #secondary-menu a {
   padding: 0 7px 0;
@@ -55,12 +64,12 @@ h1 {
 /**Title**/
 h1 {
   font-size: 3.1em;
-  padding: 50px 0 0;
   width: 90%;
-  margin: 0 auto;
-  text-align: center;
+  padding: 5px;
+  margin: 0 5%;
   color: white;
   text-shadow: 0px 0px 31px #000;
+  display: inline-block;
 }
 
 /****** BODY ******/
