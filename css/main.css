@@ -24,16 +24,7 @@ h1 {
 
 .wrapper-header {
 /*check to make sure this is right */
-  padding: 0 0 200px;
-
-  background: black;
-  background-image: url(../images/Health-and-Rec.jpg);
-  background-size: 100%;
-  background-position: 0px -309px;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-  background-color: black;
-
+  
 
 }
 
@@ -76,6 +67,16 @@ h1 {
 }
 
 /****** BODY ******/
+
+/*Carousel */
+.carousel-inner {
+  width: 100%;
+  height: 400px;
+}
+.item {
+  color: red;
+}
+
 /*DEMO VIDEO*/
 #demo-video {
   text-align: center;
