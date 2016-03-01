@@ -24,10 +24,14 @@ h1 {
 
 .wrapper-header {
 /*check to make sure this is right */
-  
 
+/*search box meanu*/
 }
-
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
 /**Menus**/
 #main-menu {
   font-style: none;
@@ -91,7 +95,7 @@ h1 {
 #demo-video {
   text-align: center;
   padding: 50px 0;
-  
+
 }
 #demo-video p {
   text-align: center;
