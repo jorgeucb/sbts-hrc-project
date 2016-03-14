@@ -221,6 +221,56 @@
     <!-- </div> -->
     -->
 
+        <div id="app">
+          <form id="form" v-on:submit.prevent="addUser">
+
+            <div class="form-group row">
+              <label for="parentsName">Parents name</label>
+              <div class="col-sm-10">
+                <input name="parentsName" v-model="newUser.name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email">Email</label>
+              <div class="col-sm-10">
+                <input name="email" v-model="newUser.email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="childsname">Childs name</label>
+              <div class="col-sm-10">
+                <input name="childsname" v-model="newUser.childsname">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="childsage">Childs age</label>
+              <div class="col-sm-10">
+                <input name=childsage v-model="newUser.childsage">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="childsclass">Class sign up</label>
+              <div class="col-sm-10">
+                <input name=childsclass v-model="newUser.childsclass">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="childstime">Time sign up</label>
+              <div class="col-sm-10">
+                <input name=childstime v-model="newUser.childstime"></div>
+            </div>
+            <div class="form-group row">
+              <label for="childsmedical">Childs medical conditions or alergies</label>
+              <div class="col-sm-10">
+                <input name=childsmedical v-model="newUser.childsmedical"></div>
+            </div>
+            <input type="submit" value="sign up">
+          </form>
+        </div>
+        <script type="text/javascript" src="js/vue.min.js"></script>
+
+        <script src="js/app.js"></script>
+
     <footer>
       <a href="http://twitter.com/SBTSHealth_Rec">
         <img src="images/twitter-wrap.png" alt="twitter logo" class="social-icon"></a>
