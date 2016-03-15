@@ -1,18 +1,18 @@
 
 
-var myDataRef = new Firebase('https://b696yihziv7.firebaseio-demo.com/');
+//var myDataRef = new Firebase('https://shining-inferno-6331.firebaseio.com/');
 // get value for name and text from vue
 // myDataRef.set({name: name, text: text});
-new Vue({
+/*new Vue({
   el: '#app',
   data: {
     message: 'Class sign up form'
   }
-});
+});*/
 
 // message here is the message on vueform
 
-var baseURL = 'https://vue-demo.firebaseIO.com/'
+var baseURL = 'https://shining-inferno-6331.firebaseio.com/'
 var emailRE = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
 /**
@@ -83,6 +83,11 @@ var app = new Vue({
         Users.push(this.newUser)
         this.newUser.name = ''
         this.newUser.email = ''
+        this.newuser.childsname: '',
+        this.newuser.childsage: '',
+        this.newuser.childsclass: '',
+        this.newuser.childstime: '',
+        this.newuser.childsmedical: ''
       }
     },
     removeUser: function (user) {
