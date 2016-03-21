@@ -83,11 +83,11 @@ var app = new Vue({
         Users.push(this.newUser)
         this.newUser.name = ''
         this.newUser.email = ''
-        this.newuser.childsname: '',
-        this.newuser.childsage: '',
-        this.newuser.childsclass: '',
-        this.newuser.childstime: '',
-        this.newuser.childsmedical: ''
+        this.newuser.childsname = '',
+        this.newuser.childsage = '',
+        this.newuser.childsclass = '',
+        this.newuser.childstime = '',
+        this.newuser.childsmedical = ''
       }
     },
     removeUser: function (user) {
