@@ -91,8 +91,8 @@ h1 {
   margin: 0 auto;
 }
 
-/*DEMO VIDEO*/
-#demo-video {
+/*DEMO VIDEO*/ /*un needed because of html formating jorge*/
+/*#demo-video {
   text-align: center;
   padding: 50px 0;
 
@@ -103,6 +103,8 @@ h1 {
   margin: 10px 17.5% 0;
 
 }
+*/
+
 /*BOTTOM*/
 .facilities-bottom {
   text-align: center;
