@@ -79,16 +79,17 @@ var app = new Vue({
   // methods
   methods: {
     addUser: function () {
-      if (this.isValid) {
+      if (this.isValid ) {
         Users.push(this.newUser)
-        this.newUser.name = ''
-        this.newUser.email = ''
-        this.newuser.childsname = '',
-        this.newuser.childsage = '',
-        this.newuser.childsclass = '',
-        this.newuser.childstime = '',
-        this.newuser.childsmedical = ''
-      }
+        this.newUser.name = '';
+        this.newUser.email = '';
+        this.newUser.childsname = '';
+        this.newUser.childsage = '';
+        this.newUser.childsclass = '';
+        this.newUser.childstime = '';
+        this.newUser.childsmedical = '';
+      } else
+    { console.log("not valid");}
     },
     removeUser: function (user) {
       new Firebase(baseURL + 'users/' + user.id).remove()
